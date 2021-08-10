@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>My Portfolio</title>
+    <script>
+        function myfunction(){
+            alert('To know more visit the social media handles giver below.');
+        }
+    </script>
+</head>
+<body>
+ <div class="nav">
+   <ul  class="ul">
+    <li class="li">
+        <a href="#About">About</a>
+    </li >
+
+    <li class="li">
+    <a href="#Project">Projects</a>
+
+    </li >
+    <li class="li">
+        <a href="#skills">Skills</a>
+    </li >
+    <li class="li">
+        <button onclick="myfunction()">&#9776; </button>
+    </li>
+   </ul>
+   
+ 
+ <!-- navlink -->
+</div>
+<div class="aligned">
+        <img  class=" img" src="data:image/png;base64,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" >
+
+        <h1 style="color:#f6f2f0">HELLO :) <br> This is khushi sharma</h1>
+        
+    </div>    
+ <aricle id="About">
+     <h2>About me</h2>
+    I am a student of BE CSE from Chitkara University  currently in my 3 year persuing fullstack development as my specialization course.I am a resident of chandigarh.i have cleared my 10th with 10cgpa and 12th with 74.6% respectively.i have a keen interest in art, current issues , music etc.
+ </aricle>
+ <div id="Project">
+     <h2>Projects</h2>
+     <h3>
+        mental wellness site
+        
+     </h3>
+     <p>Using react js </p>
+
+     <h3>
+        Gaming site
+        
+     </h3>
+     <p>
+        using html/css/js
+    </p>
+
+<BR>
+
+
+ </div>
+
+ <div id="skills" style="text-align:center;">
+    <h2>Skills</h2>
+     CSS<BR>HTML<BR>JAVASCRIPT<BR>JAVA/C/C++
+    </div>
+
+
+<!-- footer----------------------------------------------------------- -->
+
+    <footer>
+        &copy; &nbsp; &trade; &nbsp; &reg; 
+        <br>
+    
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <br>
+        
+    
+    
+    
+    </footer>
+
+
+
+
+    
+</body>
+</html>
